@@ -6,7 +6,7 @@ const API_ROOT_URL = `${ROOT_URL}/api`;
 
 export default {
   fetchCourses(token) {
-    return axios.get(`${API_ROOT_URL}/courses`, {
+    return axios.get(`${API_ROOT_URL}/courses?perPage=100&page=1`, {
       headers: {
         Authorization: `Bearer ${token}`
       }
