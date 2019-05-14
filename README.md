@@ -10,3 +10,5 @@ change ROOT_URL const to real url in src/settings.json
 ```
 npm run serve
 ```
+
+![alt text](https://raw.githubusercontent.com/j0nnii/Skhole-REST-API-demo-for-Vue.js/master/skhole-rest-api-vue.gif "Demo")
